@@ -7,49 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		219AA09718BF78A4000B68AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 219AA09618BF78A4000B68AB /* Foundation.framework */; };
 		219AA0A518BF78A4000B68AB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 219AA0A418BF78A4000B68AB /* XCTest.framework */; };
 		219AA0A618BF78A4000B68AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 219AA09618BF78A4000B68AB /* Foundation.framework */; };
-		219AA0AB18BF78A4000B68AB /* libPOSInputStreamLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 219AA09318BF78A4000B68AB /* libPOSInputStreamLibrary.a */; };
 		219AA0B118BF78A4000B68AB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 219AA0AF18BF78A4000B68AB /* InfoPlist.strings */; };
 		219AA0B318BF78A4000B68AB /* POSInputStreamLibraryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 219AA0B218BF78A4000B68AB /* POSInputStreamLibraryTests.m */; };
 		219AA0D418C07E77000B68AB /* POSRunLoopRunner.m in Sources */ = {isa = PBXBuildFile; fileRef = 219AA0CE18C07E77000B68AB /* POSRunLoopRunner.m */; };
 		219AA0D518C07E77000B68AB /* POSBlobInputStreamMockDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 219AA0D118C07E77000B68AB /* POSBlobInputStreamMockDataSource.m */; };
 		219AA0D618C07E77000B68AB /* POSBlobInputStreamMockDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 219AA0D318C07E77000B68AB /* POSBlobInputStreamMockDelegate.m */; };
-		21AF300E1B1F2FC800531F38 /* NSInputStream+POS.m in Sources */ = {isa = PBXBuildFile; fileRef = 21AF2FFE1B1F2FC800531F38 /* NSInputStream+POS.m */; };
-		21AF300F1B1F2FC800531F38 /* POSAdjustedAssetReaderIOS7.m in Sources */ = {isa = PBXBuildFile; fileRef = 21AF30001B1F2FC800531F38 /* POSAdjustedAssetReaderIOS7.m */; };
-		21AF30101B1F2FC800531F38 /* POSAdjustedAssetReaderIOS8.m in Sources */ = {isa = PBXBuildFile; fileRef = 21AF30021B1F2FC800531F38 /* POSAdjustedAssetReaderIOS8.m */; };
-		21AF30111B1F2FC800531F38 /* POSBlobInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 21AF30051B1F2FC800531F38 /* POSBlobInputStream.m */; };
-		21AF30121B1F2FC800531F38 /* POSBlobInputStreamAssetDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 21AF30071B1F2FC800531F38 /* POSBlobInputStreamAssetDataSource.m */; };
-		21AF30131B1F2FC800531F38 /* POSFastAssetReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 21AF300A1B1F2FC800531F38 /* POSFastAssetReader.m */; };
-		21AF30141B1F2FC800531F38 /* POSLocking.m in Sources */ = {isa = PBXBuildFile; fileRef = 21AF300D1B1F2FC800531F38 /* POSLocking.m */; };
-		21B9079A1B9487F400666D28 /* ALAssetsLibrary+POS.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B907991B9487F400666D28 /* ALAssetsLibrary+POS.m */; };
+		28A771762AD076590066428C /* POSInputStreamLibrary.h in Headers */ = {isa = PBXBuildFile; fileRef = 28A771752AD076590066428C /* POSInputStreamLibrary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28A7717B2AD076630066428C /* ALAssetsLibrary+POS.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B907991B9487F400666D28 /* ALAssetsLibrary+POS.m */; };
+		28A7717D2AD076630066428C /* NSInputStream+POS.m in Sources */ = {isa = PBXBuildFile; fileRef = 21AF2FFE1B1F2FC800531F38 /* NSInputStream+POS.m */; };
+		28A7717F2AD076630066428C /* POSAdjustedAssetReaderIOS7.m in Sources */ = {isa = PBXBuildFile; fileRef = 21AF30001B1F2FC800531F38 /* POSAdjustedAssetReaderIOS7.m */; };
+		28A771812AD076630066428C /* POSAdjustedAssetReaderIOS8.m in Sources */ = {isa = PBXBuildFile; fileRef = 21AF30021B1F2FC800531F38 /* POSAdjustedAssetReaderIOS8.m */; };
+		28A771862AD076630066428C /* POSBlobInputStreamAssetDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 21AF30071B1F2FC800531F38 /* POSBlobInputStreamAssetDataSource.m */; };
+		28A771892AD076630066428C /* POSFastAssetReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 21AF300A1B1F2FC800531F38 /* POSFastAssetReader.m */; };
+		28A7718D2AD076720066428C /* POSBlobInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 21AF30051B1F2FC800531F38 /* POSBlobInputStream.m */; };
+		28A7718E2AD076760066428C /* POSLocking.m in Sources */ = {isa = PBXBuildFile; fileRef = 21AF300D1B1F2FC800531F38 /* POSLocking.m */; };
+		28A7718F2AD077720066428C /* ALAssetsLibrary+POS.h in Headers */ = {isa = PBXBuildFile; fileRef = 21B907981B9487F400666D28 /* ALAssetsLibrary+POS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28A771902AD077750066428C /* NSInputStream+POS.h in Headers */ = {isa = PBXBuildFile; fileRef = 21AF2FFD1B1F2FC800531F38 /* NSInputStream+POS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28A771912AD077790066428C /* POSAssetReader.h in Headers */ = {isa = PBXBuildFile; fileRef = 21AF30031B1F2FC800531F38 /* POSAssetReader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28A771922AD0777B0066428C /* POSBlobInputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 21AF30041B1F2FC800531F38 /* POSBlobInputStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28A771932AD0777D0066428C /* POSBlobInputStreamAssetDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 21AF30061B1F2FC800531F38 /* POSBlobInputStreamAssetDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28A771942AD0777F0066428C /* POSBlobInputStreamDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 21AF30081B1F2FC800531F38 /* POSBlobInputStreamDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28A771952AD077810066428C /* POSFastAssetReader.h in Headers */ = {isa = PBXBuildFile; fileRef = 21AF30091B1F2FC800531F38 /* POSFastAssetReader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28A771962AD077830066428C /* POSLocking.h in Headers */ = {isa = PBXBuildFile; fileRef = 21AF300C1B1F2FC800531F38 /* POSLocking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		219AA0A918BF78A4000B68AB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 219AA08B18BF78A4000B68AB /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 219AA09218BF78A4000B68AB;
-			remoteInfo = POSInputStreamLibrary;
-		};
-/* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		219AA09118BF78A4000B68AB /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "include/$(PRODUCT_NAME)";
-			dstSubfolderSpec = 16;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		219AA09318BF78A4000B68AB /* libPOSInputStreamLibrary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPOSInputStreamLibrary.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		219AA09618BF78A4000B68AB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		219AA09A18BF78A4000B68AB /* POSInputStreamLibrary-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "POSInputStreamLibrary-Prefix.pch"; sourceTree = "<group>"; };
 		219AA0A318BF78A4000B68AB /* POSInputStreamLibraryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = POSInputStreamLibraryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -80,29 +64,28 @@
 		21AF30081B1F2FC800531F38 /* POSBlobInputStreamDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POSBlobInputStreamDataSource.h; sourceTree = "<group>"; };
 		21AF30091B1F2FC800531F38 /* POSFastAssetReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POSFastAssetReader.h; sourceTree = "<group>"; };
 		21AF300A1B1F2FC800531F38 /* POSFastAssetReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = POSFastAssetReader.m; sourceTree = "<group>"; };
-		21AF300B1B1F2FC800531F38 /* POSInputStreamLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POSInputStreamLibrary.h; sourceTree = "<group>"; };
 		21AF300C1B1F2FC800531F38 /* POSLocking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POSLocking.h; sourceTree = "<group>"; };
 		21AF300D1B1F2FC800531F38 /* POSLocking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = POSLocking.m; sourceTree = "<group>"; };
 		21B907981B9487F400666D28 /* ALAssetsLibrary+POS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ALAssetsLibrary+POS.h"; sourceTree = "<group>"; };
 		21B907991B9487F400666D28 /* ALAssetsLibrary+POS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ALAssetsLibrary+POS.m"; sourceTree = "<group>"; };
+		28A771732AD076590066428C /* POSInputStreamLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = POSInputStreamLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		28A771752AD076590066428C /* POSInputStreamLibrary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = POSInputStreamLibrary.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		219AA09018BF78A4000B68AB /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				219AA09718BF78A4000B68AB /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		219AA0A018BF78A4000B68AB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				219AA0A518BF78A4000B68AB /* XCTest.framework in Frameworks */,
 				219AA0A618BF78A4000B68AB /* Foundation.framework in Frameworks */,
-				219AA0AB18BF78A4000B68AB /* libPOSInputStreamLibrary.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28A771702AD076590066428C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -114,6 +97,7 @@
 			children = (
 				219AA09818BF78A4000B68AB /* POSInputStreamLibrary */,
 				219AA0AC18BF78A4000B68AB /* POSInputStreamLibraryTests */,
+				28A771742AD076590066428C /* POSInputStreamLibrary */,
 				219AA09518BF78A4000B68AB /* Frameworks */,
 				219AA09418BF78A4000B68AB /* Products */,
 			);
@@ -122,8 +106,8 @@
 		219AA09418BF78A4000B68AB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				219AA09318BF78A4000B68AB /* libPOSInputStreamLibrary.a */,
 				219AA0A318BF78A4000B68AB /* POSInputStreamLibraryTests.xctest */,
+				28A771732AD076590066428C /* POSInputStreamLibrary.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -157,7 +141,6 @@
 				21AF30081B1F2FC800531F38 /* POSBlobInputStreamDataSource.h */,
 				21AF30091B1F2FC800531F38 /* POSFastAssetReader.h */,
 				21AF300A1B1F2FC800531F38 /* POSFastAssetReader.m */,
-				21AF300B1B1F2FC800531F38 /* POSInputStreamLibrary.h */,
 				21AF300C1B1F2FC800531F38 /* POSLocking.h */,
 				21AF300D1B1F2FC800531F38 /* POSLocking.m */,
 				219AA09918BF78A4000B68AB /* Supporting Files */,
@@ -215,26 +198,36 @@
 			path = Mocks;
 			sourceTree = "<group>";
 		};
+		28A771742AD076590066428C /* POSInputStreamLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				28A771752AD076590066428C /* POSInputStreamLibrary.h */,
+			);
+			path = POSInputStreamLibrary;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
-/* Begin PBXNativeTarget section */
-		219AA09218BF78A4000B68AB /* POSInputStreamLibrary */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 219AA0B618BF78A4000B68AB /* Build configuration list for PBXNativeTarget "POSInputStreamLibrary" */;
-			buildPhases = (
-				219AA08F18BF78A4000B68AB /* Sources */,
-				219AA09018BF78A4000B68AB /* Frameworks */,
-				219AA09118BF78A4000B68AB /* CopyFiles */,
+/* Begin PBXHeadersBuildPhase section */
+		28A7716E2AD076590066428C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28A771762AD076590066428C /* POSInputStreamLibrary.h in Headers */,
+				28A771962AD077830066428C /* POSLocking.h in Headers */,
+				28A771952AD077810066428C /* POSFastAssetReader.h in Headers */,
+				28A771942AD0777F0066428C /* POSBlobInputStreamDataSource.h in Headers */,
+				28A771932AD0777D0066428C /* POSBlobInputStreamAssetDataSource.h in Headers */,
+				28A771922AD0777B0066428C /* POSBlobInputStream.h in Headers */,
+				28A771912AD077790066428C /* POSAssetReader.h in Headers */,
+				28A771902AD077750066428C /* NSInputStream+POS.h in Headers */,
+				28A7718F2AD077720066428C /* ALAssetsLibrary+POS.h in Headers */,
 			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = POSInputStreamLibrary;
-			productName = POSInputStreamLibrary;
-			productReference = 219AA09318BF78A4000B68AB /* libPOSInputStreamLibrary.a */;
-			productType = "com.apple.product-type.library.static";
+			runOnlyForDeploymentPostprocessing = 0;
 		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
 		219AA0A218BF78A4000B68AB /* POSInputStreamLibraryTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 219AA0B918BF78A4000B68AB /* Build configuration list for PBXNativeTarget "POSInputStreamLibraryTests" */;
@@ -246,12 +239,29 @@
 			buildRules = (
 			);
 			dependencies = (
-				219AA0AA18BF78A4000B68AB /* PBXTargetDependency */,
 			);
 			name = POSInputStreamLibraryTests;
 			productName = POSInputStreamLibraryTests;
 			productReference = 219AA0A318BF78A4000B68AB /* POSInputStreamLibraryTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		28A771722AD076590066428C /* POSInputStreamLibrary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28A771772AD076590066428C /* Build configuration list for PBXNativeTarget "POSInputStreamLibrary" */;
+			buildPhases = (
+				28A7716E2AD076590066428C /* Headers */,
+				28A7716F2AD076590066428C /* Sources */,
+				28A771702AD076590066428C /* Frameworks */,
+				28A771712AD076590066428C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = POSInputStreamLibrary;
+			productName = POSInputStreamLibrary;
+			productReference = 28A771732AD076590066428C /* POSInputStreamLibrary.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -261,12 +271,19 @@
 			attributes = {
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Pavel Osipov";
+				TargetAttributes = {
+					28A771722AD076590066428C = {
+						CreatedOnToolsVersion = 14.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
 			};
 			buildConfigurationList = 219AA08E18BF78A4000B68AB /* Build configuration list for PBXProject "POSInputStreamLibrary" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 219AA08A18BF78A4000B68AB;
@@ -274,8 +291,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				219AA09218BF78A4000B68AB /* POSInputStreamLibrary */,
 				219AA0A218BF78A4000B68AB /* POSInputStreamLibraryTests */,
+				28A771722AD076590066428C /* POSInputStreamLibrary */,
 			);
 		};
 /* End PBXProject section */
@@ -289,24 +306,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-/* End PBXResourcesBuildPhase section */
-
-/* Begin PBXSourcesBuildPhase section */
-		219AA08F18BF78A4000B68AB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
+		28A771712AD076590066428C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				21AF30141B1F2FC800531F38 /* POSLocking.m in Sources */,
-				21AF30131B1F2FC800531F38 /* POSFastAssetReader.m in Sources */,
-				21B9079A1B9487F400666D28 /* ALAssetsLibrary+POS.m in Sources */,
-				21AF30121B1F2FC800531F38 /* POSBlobInputStreamAssetDataSource.m in Sources */,
-				21AF30111B1F2FC800531F38 /* POSBlobInputStream.m in Sources */,
-				21AF300F1B1F2FC800531F38 /* POSAdjustedAssetReaderIOS7.m in Sources */,
-				21AF30101B1F2FC800531F38 /* POSAdjustedAssetReaderIOS8.m in Sources */,
-				21AF300E1B1F2FC800531F38 /* NSInputStream+POS.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
 		219AA09F18BF78A4000B68AB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -318,15 +327,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-/* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		219AA0AA18BF78A4000B68AB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 219AA09218BF78A4000B68AB /* POSInputStreamLibrary */;
-			targetProxy = 219AA0A918BF78A4000B68AB /* PBXContainerItemProxy */;
+		28A7716F2AD076590066428C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28A7718E2AD076760066428C /* POSLocking.m in Sources */,
+				28A7718D2AD076720066428C /* POSBlobInputStream.m in Sources */,
+				28A7717B2AD076630066428C /* ALAssetsLibrary+POS.m in Sources */,
+				28A7717D2AD076630066428C /* NSInputStream+POS.m in Sources */,
+				28A7717F2AD076630066428C /* POSAdjustedAssetReaderIOS7.m in Sources */,
+				28A771812AD076630066428C /* POSAdjustedAssetReaderIOS8.m in Sources */,
+				28A771862AD076630066428C /* POSBlobInputStreamAssetDataSource.m in Sources */,
+				28A771892AD076630066428C /* POSFastAssetReader.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
 		};
-/* End PBXTargetDependency section */
+/* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
 		219AA0AF18BF78A4000B68AB /* InfoPlist.strings */ = {
@@ -408,30 +424,6 @@
 			};
 			name = Release;
 		};
-		219AA0B718BF78A4000B68AB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DSTROOT = /tmp/POSInputStreamLibrary.dst;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "POSInputStreamLibrary/POSInputStreamLibrary-Prefix.pch";
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		219AA0B818BF78A4000B68AB /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DSTROOT = /tmp/POSInputStreamLibrary.dst;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "POSInputStreamLibrary/POSInputStreamLibrary-Prefix.pch";
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
 		219AA0BA18BF78A4000B68AB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -470,6 +462,108 @@
 			};
 			name = Release;
 		};
+		28A771782AD076590066428C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2023 Pavel Osipov. All rights reserved.";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.golubev.POSInputStreamLibrary;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		28A771792AD076590066428C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2023 Pavel Osipov. All rights reserved.";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.golubev.POSInputStreamLibrary;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -482,20 +576,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		219AA0B618BF78A4000B68AB /* Build configuration list for PBXNativeTarget "POSInputStreamLibrary" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				219AA0B718BF78A4000B68AB /* Debug */,
-				219AA0B818BF78A4000B68AB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		219AA0B918BF78A4000B68AB /* Build configuration list for PBXNativeTarget "POSInputStreamLibraryTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				219AA0BA18BF78A4000B68AB /* Debug */,
 				219AA0BB18BF78A4000B68AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28A771772AD076590066428C /* Build configuration list for PBXNativeTarget "POSInputStreamLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28A771782AD076590066428C /* Debug */,
+				28A771792AD076590066428C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
